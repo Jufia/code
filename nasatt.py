@@ -12,7 +12,7 @@ from models.transformerlayers.position_wise_feed_forward import PositionwiseFeed
 
 import logging
 logging.basicConfig(
-    filename='transformer_run.log',
+    filename='nasatt_run.log',
     level=logging.INFO,
     format='%(asctime)s %(levelname)s %(message)s',
     filemode='a'

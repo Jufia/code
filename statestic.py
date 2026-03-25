@@ -22,7 +22,7 @@ def quality(model, x):
     tmp_stdout = StringIO()
     old_stdout = sys.stdout
     sys.stdout = tmp_stdout
-    summary(model, input_size=x.shape)
+    summary(model, input_size=x.shape, device='cuda')
     sys.stdout = old_stdout
     logging.info(f"\n{tmp_stdout.getvalue()}")
 

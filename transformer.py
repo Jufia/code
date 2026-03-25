@@ -6,8 +6,8 @@ import torch
 from torch import nn
 
 from models.transformerlayers.layer_norm import LayerNorm
-# from models.transformerlayers.multi_head_attention import MultiHeadAttention
-from chapter3.naive import nsa as MultiHeadAttention
+from models.transformerlayers.multi_head_attention import MultiHeadAttention
+# from chapter3.naive import nsa as MultiHeadAttention
 from models.transformerlayers.position_wise_feed_forward import PositionwiseFeedForward
 
 import logging
